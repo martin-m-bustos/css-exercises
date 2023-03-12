@@ -47,6 +47,8 @@ a {
   color: rebeccapurple;
 }
 
+/* Unordered-list ul tag need to specify margin and padding when adding flex */
+
 ul {
   list-style-type: none;
   display: flex;
@@ -54,6 +56,9 @@ ul {
   padding: 0;
   gap: 16px;
 }
+
+/* Need to separate the items on edge into their own flex containers to be able to push 
+   toward appropriate direction */
 
 .leftside {
   display:flex;
