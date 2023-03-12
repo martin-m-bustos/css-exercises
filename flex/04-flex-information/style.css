@@ -23,12 +23,15 @@ img {
 
 .plant {
   flex-basis: 200px;
+}
+
+.text, .plant {
   text-align: center;
 }
 
-.text {
-  text-align: center;
-}
+/* This solution works and has same functionality as
+given solution - alternative is to center text for body
+instead of specifying for each item */
 
 /* do not edit this footer */
 .footer {
